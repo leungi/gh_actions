@@ -13,20 +13,20 @@ knitr::opts_chunk$set(
 )
 ```
 
-# github_actions
+# GHAction
 
 <!-- badges: start -->
 [![R build status](https://github.com/leungi/gh_actions/workflows/R-CMD-check/badge.svg)](https://github.com/leungi/gh_actions/actions)
 <!-- badges: end -->
 
-The goal of github_actions is to ...
+The goal of GHAction is to demonstrate GitHub Actions for CI.
 
 ## Installation
 
 You can install the released version of github_actions from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("github_actions")
+install.packages("GHAction")
 ```
 
 And the development version from [GitHub](https://github.com/) with:
@@ -40,7 +40,7 @@ devtools::install_github("leungi/gh_actions")
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-# library(github_actions)
+library(GHAction)
 ## basic example code
 ```
 
